@@ -25,6 +25,7 @@
   border: none;
   text-transform: capitalize;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .card {
@@ -76,4 +77,8 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+button:active {
+  background-color: #0440fd;
 }
